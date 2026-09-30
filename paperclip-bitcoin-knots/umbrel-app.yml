@@ -1,0 +1,21 @@
+manifestVersion: 1.1
+id: paperclip-bitcoin-knots
+name: Bitcoin Knots BLAKE2b
+tagline: BLAKE2b Bitcoin at home
+icon: https://raw.githubusercontent.com/Retropex/umbrel-apps-gallery/master/bitcoin-knots/icon.svg
+category: bitcoin
+version: "0.2.0"
+port: 21001
+description: "Mainnet Bitcoin Knots with BLAKE2b consensus. Open for node and deployment status. Compatible BLAKE2b/BLAKE2b-Sia ASICs required; SHA256 ASICs are not compatible."
+developer: connorslab
+website: https://github.com/connorslab/paperclip-umbrel-app-store
+submitter: connorslab
+submission: https://github.com/connorslab/paperclip-umbrel-app-store
+repo: https://github.com/connorslab/paperclip-umbrel-app-store
+support: https://github.com/connorslab/paperclip-umbrel-app-store/issues
+gallery: []
+releaseNotes: "Updated release. Knots 29.4.2.knots20260508; CONVOY ac9b70c8b361f14e90e2c963b429a9bbb414aecb."
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""

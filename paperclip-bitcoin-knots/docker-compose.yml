@@ -1,0 +1,17 @@
+services:
+  app_proxy:
+    environment:
+      APP_HOST: paperclip-bitcoin-knots_node_1
+      APP_PORT: 8080
+  node:
+    image: ghcr.io/connorslab/bitcoin-knots-blake2b:0.2.0@sha256:a2444fa34b84a520566dee767d5158ffe66f2a4afcf05b2b6c8f6c50159bfc29
+    user: "1000:1000"
+    restart: unless-stopped
+    stop_grace_period: 5m
+    environment:
+      RPC_USER: ${APP_PAPERCLIP_KNOTS_RPC_USER}
+      RPC_PASSWORD: ${APP_PAPERCLIP_KNOTS_RPC_PASS}
+    volumes:
+      - ${APP_DATA_DIR}/data:/data
+    ports:
+      - "8333:8333"

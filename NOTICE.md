@@ -1,0 +1,1 @@
+Packaging by connorslab. CONVOY DATUM is MIT licensed; see LICENSE. Bitcoin Knots is MIT licensed. Original packaging icon is dedicated to CC0. StartOS integration follows Start9Labs SDK examples (MIT) and studies OCEAN-xyz/datum-gateway-startos (MIT); no upstream mining or consensus source is modified.

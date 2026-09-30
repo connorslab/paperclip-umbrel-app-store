@@ -1,0 +1,13 @@
+{
+  "knots": {
+    "tag": "v29.4.2.knots20260508",
+    "activation_height": 961640,
+    "amd64_sha256": "b59d0445a317e21a03dc29425db3aba79b27d5125230b1a2b1dce62e120827c5",
+    "arm64_sha256": "e50c5717e834a68a324d0e8e2fdc097cb3c9ff38cd69ce2caf9360d1e24aa69a"
+  },
+  "convoy": {
+    "commit": "ac9b70c8b361f14e90e2c963b429a9bbb414aecb",
+    "required_ancestor": "56c31f4"
+  },
+  "resolved": "2026-09-30"
+}

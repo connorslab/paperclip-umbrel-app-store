@@ -4,7 +4,7 @@
   "name": "Paperclip Wallet Beta",
   "tagline": "On-chain, Ark, and Lightning for XBT",
   "category": "bitcoin",
-  "version": "0.7.2",
+  "version": "0.7.3",
   "port": 38180,
   "description": "Beta XBT wallet preset to https://ark.paperclippool.xyz. Configure your compatible XBT blockchain backend. Wait for server activation before funding. Back up the complete wallet.",
   "developer": "Paperclip",
@@ -18,5 +18,5 @@
   "defaultUsername": "",
   "deterministicPassword": true,
   "submitter": "Paperclip",
-  "releaseNotes": "Paperclip beta server preset. Local keys, authenticated access, on-chain, Ark, and server-backed Lightning. Platform restore acceptance testing remains required."
+  "releaseNotes": "Handle temporary chain RPC overload and fee-estimation failures without crashing. Bounded retries apply only to fee lookups; transaction broadcasts are never automatically replayed."
 }

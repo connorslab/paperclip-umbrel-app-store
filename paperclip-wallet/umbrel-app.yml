@@ -4,9 +4,9 @@
   "name": "Paperclip Wallet Beta",
   "tagline": "On-chain, Ark, and Lightning for XBT",
   "category": "bitcoin",
-  "version": "0.7.7",
+  "version": "0.8.0",
   "port": 38180,
-  "description": "Beta XBT wallet preset to https://ark.paperclippool.xyz. Configure your compatible XBT blockchain backend. Paperclip Ark is open in beta; check live service status before funding. Back up the complete wallet. Not independently audited. Experimental software with no warranty; bugs can cause loss of funds. Use only amounts you can afford to lose.",
+  "description": "Beta XBT wallet preset to https://ark.paperclippool.xyz. Configure your compatible XBT blockchain backend. Check live service status before funding. Back up the complete wallet.",
   "developer": "Paperclip",
   "website": "https://github.com/connorslab/paperclip-wallet-app",
   "repo": "https://github.com/connorslab/paperclip-wallet-app",
@@ -18,5 +18,5 @@
   "defaultUsername": "",
   "deterministicPassword": true,
   "submitter": "Paperclip",
-  "releaseNotes": "Preview Ark-send recovery reserves and total balance reduction before payment. An approved debit cap rejects cost increases before signing. Estimates do not reserve funds. Existing wallet data is preserved."
+  "releaseNotes": "Reusable BOLT12 receiving with a compatible ASP, local receive QR codes, and on-chain message signing. Keep the wallet service online for offer requests. Back up the complete wallet before upgrading; do not downgrade after creating an offer. Beta software, not independently audited."
 }

@@ -4,7 +4,7 @@
   "name": "Paperclip Wallet Beta",
   "tagline": "On-chain, Ark, and Lightning for XBT",
   "category": "bitcoin",
-  "version": "0.8.1",
+  "version": "0.8.2",
   "port": 38180,
   "description": "Beta XBT wallet preset to https://ark.paperclippool.xyz. Configure your compatible XBT blockchain backend. Check live service status before funding. Back up the complete wallet.",
   "developer": "Paperclip",
@@ -18,5 +18,5 @@
   "defaultUsername": "",
   "deterministicPassword": true,
   "submitter": "Paperclip",
-  "releaseNotes": "Fixes Lightning payments from fragmented Ark balances with builder-validated input selection and cost estimates. Recovery reserves remain enforced. Retains reusable BOLT12, receive QR codes, and message signing. Back up the complete wallet before upgrading. Beta, not independently audited."
+  "releaseNotes": "Reduces ordinary Ark-to-Ark recovery allocations by 33.5% on compatible servers: 2,660 sats without change or 3,990 with change for one input. Preserves funded unilateral recovery and compatibility with older servers and recipients. Lightning reserves are unchanged. Back up the complete wallet before upgrading; do not downgrade with pending transfers. Beta, not independently audited."
 }

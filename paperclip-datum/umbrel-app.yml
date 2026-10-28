@@ -15,7 +15,7 @@ repo: https://github.com/connorslab/paperclip-umbrel-app-store
 support: https://github.com/connorslab/paperclip-umbrel-app-store/issues
 gallery: []
 releaseNotes: "Updated release. Knots 29.4.2.knots20260508; CONVOY ac9b70c8b361f14e90e2c963b429a9bbb414aecb."
-dependencies: [paperclip-bitcoin-knots]
+dependencies: [bitcoin]
 path: ""
 defaultUsername: "admin"
 deterministicPassword: true

@@ -31,3 +31,7 @@ wallet. Saved wallet connections are never silently replaced.
 
 Back up the complete wallet before updating. The image is pinned by digest.
 Removing the old Knots catalog entry does not uninstall a node or remove its data.
+
+## 0.9.1 setup hotfix
+
+Fixes new-wallet ASP defaults and setup layout. Paperclip is prefilled, configured custom servers are respected, and switching node modes preserves edits. Checkboxes and action buttons now have separate layouts. Existing wallet data, recovery formats, and fees are unchanged. Update in place after backing up the complete wallet.

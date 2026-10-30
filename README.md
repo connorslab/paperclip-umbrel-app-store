@@ -35,3 +35,12 @@ Removing the old Knots catalog entry does not uninstall a node or remove its dat
 ## 0.9.1 setup hotfix
 
 Fixes new-wallet ASP defaults and setup layout. Paperclip is prefilled, configured custom servers are respected, and switching node modes preserves edits. Checkboxes and action buttons now have separate layouts. Existing wallet data, recovery formats, and fees are unchanged. Update in place after backing up the complete wallet.
+
+## Wallet 0.9.2
+
+Sign-in stays responsive while the node is syncing or unavailable. Use the app
+password shown by Umbrel. Balances and activity can load independently, with
+clear messages when data is unavailable. Dedicated transaction result screens
+distinguish completion, failure, pending confirmation, and unknown outcomes.
+Interrupted payments are never automatically resent. Existing wallet data,
+authentication, connection settings, fees, and recovery formats are preserved.

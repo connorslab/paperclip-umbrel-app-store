@@ -7,7 +7,7 @@
       }
     },
     "wallet": {
-      "image": "ghcr.io/connorslab/paperclip-wallet-app:0.9.1@sha256:58215b53eb70b45ced7c0e34cdc8c0c9cd390304f7c897702877409dea035fb2",
+      "image": "ghcr.io/connorslab/paperclip-wallet-app:beta-41126306588@sha256:5da1bc86c801af9d61af2af9f0f6f501a51f36963885c2eaf8d652f0fe183877",
       "user": "1000:1000",
       "restart": "unless-stopped",
       "stop_grace_period": "2m",

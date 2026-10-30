@@ -44,3 +44,7 @@ clear messages when data is unavailable. Dedicated transaction result screens
 distinguish completion, failure, pending confirmation, and unknown outcomes.
 Interrupted payments are never automatically resent. Existing wallet data,
 authentication, connection settings, fees, and recovery formats are preserved.
+
+## Wallet 0.9.3
+
+Fixes blockchain RPC connections that could remain stuck after a canceled request or a closed server connection, leaving Ark balances unavailable. Connections can recover without restarting the wallet. Existing keys, authentication, settings, fees, recovery data, and older-client compatibility are unchanged. Interrupted payments are not automatically retried. Back up the complete wallet before updating.
